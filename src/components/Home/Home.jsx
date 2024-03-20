@@ -1,7 +1,7 @@
 import NavBar from "../NavBar/NavBar";
 import { IoCallSharp } from "react-icons/io5";
 import { MdMailOutline } from "react-icons/md";
-import logo from "../../assets/images/logo.png";
+import logo from "./../../assets/images/logo.png";
 
 export default function Home(){
     return(
