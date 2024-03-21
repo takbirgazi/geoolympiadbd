@@ -12,6 +12,7 @@ import BgoEvents from './components/BgoEvents/BgoEvents.jsx';
 import Resources from './components/Resources/Resources.jsx';
 import Gallery from './components/Gallery/Gallery.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import Home from './components/Home/Home.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     element: <App></App>,
     errorElement: <ErrorPage></ErrorPage>,
     children:[
+      {
+        path: "/",
+        element: <Home></Home>
+      },
       {
         path: "/about",
         element: <About></About>
